@@ -13,6 +13,6 @@ steps:
   - --image=gcr.io/$PROJECT_ID/gcpdevops-dev
   - --location=us-central1
   - --cluster=gcp-eks
-  - --namespace="gcp-devops-dev"
+  - --namespace=gcp-devops-dev
 
 #working-code- aa
