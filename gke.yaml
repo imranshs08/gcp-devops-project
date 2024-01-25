@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gcp-devops-gke
+  namespace: "gcp-devops-dev"
 spec:
   replicas: 3
   selector:
@@ -14,7 +15,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/gcp-eks-412117/gcpdevops-dev
+        image: gcr.io/gcp-eks-412117/gcpdevops-dev:latest
         ports:
         - containerPort: 5000
         env:
