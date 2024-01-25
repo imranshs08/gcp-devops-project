@@ -15,10 +15,14 @@ spec:
       containers:
       - name: gcp-devops-gke
 <<<<<<< HEAD
+<<<<<<< HEAD
         image: gcr.io/kodekloud-gcp-training/gcpdevops-dev:latest
 =======
         image: gcr.io/cloud-builders/gke-deploy:latest
 >>>>>>> 995891d (revision ns)
+=======
+        image: https://gcr.io/gcp-eks-412117/gcpdevops:latest
+>>>>>>> 0afe4b1 (revision ns)
         ports:
         - containerPort: 5000
         env:
