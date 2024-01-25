@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gcp-devops-gke
-  namespace: gcp-devops-dev # Add this line
+  # namespace: gcp-devops-dev # Add this line
 spec:
   replicas: 1
   selector:
